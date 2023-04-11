@@ -188,7 +188,6 @@ function moveWithArrowKeys(left, bottom, callback){
     let direction = null;
     let x = left;
     let y = bottom;
-    ...
 
     document.addEventListener('keydown', function(e){
         if(e.repeat) return;
@@ -284,3 +283,4 @@ function newInventory(){
 }
 
 const inventory = newInventory()
+}
